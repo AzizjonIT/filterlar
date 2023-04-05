@@ -1,0 +1,193 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.canteiner {
+    width: 1340px;
+    margin: 0 auto;
+    font-family: 'Montserrat';
+}
+.img_card{
+    display: flex;
+    padding: 60px;
+}
+.foto_1{
+    width: 500px;
+}
+.text{
+    color: #7E9BBD;
+    padding: 20px;
+}
+.buton{
+    padding-top: 10px;
+}
+.buton_b{
+    color: aliceblue;
+    background-color: black;
+    padding: 10px;
+    border-radius: 7px;
+}
+.text_p_foto{
+    width: 420px;
+    padding-top: 40px;
+}
+.card_text_foto{
+    padding-top: 15px;
+}
+.text_1{
+    text-align: center;
+    padding-top: 60px;
+}
+
+
+
+
+.card {
+    width: 350px;
+   
+}
+
+.card:hover {
+    border-style: initial;
+    border-color: red;
+    border: 5px;
+}
+
+.card_text {
+    padding: 30px;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.img {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+.card_p {
+    padding-top: 20px;
+    color: rgb(27, 68, 129);
+    display: flex;
+    column-gap: 120px;
+}
+
+.button_text {
+    width: 50px;
+    height: 20px;
+}
+
+.button {
+    border-style: solid;
+    padding: 5px;
+    color: rgb(16, 35, 161);
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.p_text {
+    color: red;
+}
+
+.cardd {
+    padding-top: 80px;
+    display: flex;
+    column-gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card_text_1 {
+    padding-top: 60px;
+}
+
+.buton_n {
+    padding: 5px;
+    background-color: darkgray;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.card_button {
+    display: flex;
+    justify-content: center;
+    padding-top: 43px;
+    padding-bottom: 108px;
+    column-gap: 30px;
+
+}
+
+.card_text_1 {
+    padding-left: 30px;
+}
+
+.card_1 {
+    border: 5px solid white;
+
+}
+
+.card_1:hover {
+    border: 5px solid rgba(41, 20, 183, 0.47);
+}
+
+
+.card_1:hover .card_p p {
+    color: #FF5C5C;
+}
+.cardd{
+    padding-bottom: 108px;
+    padding-top: 46px;
+}
+.buton_b{
+    text-decoration: none;
+}
+
+.rasim{
+    width: 350px;
+}
+.rasim:hover{
+filter: blur(5px);
+transition: 1s;
+}
+.rasim_1{
+    width: 350px;
+}
+.rasim_1:hover{
+filter: brightness(200%);
+transition: 1s;
+}
+.rasim_2{
+    width: 350px;
+}
+
+.rasim_2:hover{
+    filter: grayscale(100%);
+    transition: 1s;
+}
+.rasim_3{
+    width: 350px;
+}
+.rasim_3:hover{
+    filter: invert(50%);
+    transition: 1s;
+}
+.rasim_4{
+    width: 350px;
+}
+.rasim_4:hover{
+    filter: opacity(50%);
+    transition: 2s;
+}
+.rasim_5{
+    width: 350px;
+}
+.rasim_5:hover{
+    filter: saturate(400%);
+    transition: 2s;
+}

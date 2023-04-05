@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Montserrat';
+}
+.canteiner {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.text {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.card {
+    width: 350px;
+
+}
+
+.card:hover {
+    border-style: initial;
+    border-color: red;
+    border: 5px;
+}
+
+.card_text {
+    padding: 30px;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.img {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+.card_p {
+    padding-top: 20px;
+    color: darkgray;
+    display: flex;
+    column-gap: 120px;
+}
+
+.button_text {
+    width: 50px;
+    height: 20px;
+}
+
+.button {
+    border-style: solid;
+    padding: 5px;
+    color: darkgray;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.p_text {
+    color: red;
+}
+
+.cardd {
+    padding-top: 80px;
+    display: flex;
+    column-gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card_text_1 {
+    padding-top: 60px;
+}
+
+.buton_n {
+    padding: 5px;
+    background-color: darkgray;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.card_button {
+    display: flex;
+    justify-content: center;
+    padding-top: 43px;
+    padding-bottom: 108px;
+    column-gap: 30px;
+
+}
+
+.card_text_1 {
+    padding-left: 30px;
+}
+
+.card {
+    border: 5px solid white;
+}
+
+.card:hover {
+    border: 5px solid rgba(255, 92, 92, 0.47);
+}
+
+
+.card:hover .card_p p {
+    color: #FF5C5C;
+}
+
+.b {
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: darkgray;
+    border: none;
+    border-radius: 5px;
+}
+
+.buton_n:hover {
+    border: 5px solid rgba(56, 19, 176, 0.47);
+}
+
+.b:hover {
+    border: 5px solid rgba(56, 19, 176, 0.47);
+}
